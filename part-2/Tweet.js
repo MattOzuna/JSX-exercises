@@ -9,24 +9,3 @@ const Tweet = ({username, name, date, message}) => (
         </ul>
     </div>
 )
-
-{/* <Card
-className="my-2"
-color="primary"
-outline
-style={{
-  width: '18rem'
-}}
->
-<CardHeader>
-  Tweet
-</CardHeader>
-<CardBody>
-  <CardTitle tag="h5">
-    Username:{username}, Name:{name}, Date:{date}
-  </CardTitle>
-  <CardText>
-    {message}
-  </CardText>
-</CardBody>
-</Card> */}
